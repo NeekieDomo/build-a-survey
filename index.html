@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">What's your favorite anime?</h1>
+    <p id="description">This is a simple survey to discover which anime is most popular.</p>
+
+    <form id="survey-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name-label"  placeholder="Domonique" required/>
+        
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email-label" placeholder="Domonique@yahoo.com" required/>
+        
+      <br>
+      <label for="number">Age:</label>
+      <input type="number" id="number-label" 
+      min="1"
+      max="99"
+      placeholder="99"/>
+      <br>
+ 
+      <br>
+       <label for="dropdown">Do you watch anime?:</label>
+    <select id="dropdown" name="dropdown">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        </select>
+        <br>
+         <label>
+   
+    <input type="radio" name="Anime" value="Naruto">
+    Naruto</label>
+    <br>
+    <input type="radio" name="Anime" value="Demon Slayer"> Demon Slayer
+    <br>
+    <input type="radio" name="Anime" value="One Piece"> One Piece
+    <br>
+    <input type="radio" name="Anime"
+    value="Other">
+Other
+      <br>
+  </label><br>
+  <p>What was your starter anime</p>
+<input type="checkbox" value="Inuyasha">Inuyasha</input>
+<input type="checkbox" value="DragonBall">DragonBall</input>
+<input type="checkbox" value="Yu Yu Hakusho">Yu Yu Hakusho</input>
+<input type="checkbox" value="Other">Other</input>
+<br>
+<br>
+<textarea></textarea>
+<br>
+   <input type="submit"id="submit">
+        <button type="rest">Reset</button>
+    </form>
+  </body>
+</html>
